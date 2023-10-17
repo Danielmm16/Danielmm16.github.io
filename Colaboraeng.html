@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Collaborate with us</title>
+	<link rel="icon" type="image/x-icon" href="Imagenes/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/Esports.css">
+	<link rel="stylesheet" type="text/css" href="css/colabora.css">
+</head>
+<body>
+	<header>
+		<h1>Collaborate with us</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="Indexeng.html">Home</a></li>
+			<li><a href="Agenteseng.html">Agents</a></li>
+			<li><a href="Mapaseng.html">Maps</a></li>
+			<li><a href="#">Collaborate</a></li>
+		</ul>
+	</nav>
+	<br><br>
+	<section>
+		<article id="idioma">
+		<ul>
+			<li><a href="Colabora.html">🇪🇸 Spanish</a></li>
+			<li><a href="#">🇬🇧 English</a></li>
+		</ul>
+		</article>
+		<br><br>
+		<article>
+			<h2>Form</h2>
+			<p>Fill in this form to collaborate on our website</p>
+		</article>
+		<article id="formulario">
+			<form name="colaborar" method="POST">
+				<label for="nombre">Name:</label>
+      			<input id="nombre" type="text" name="nombre" required="required" placeholder="Albert">
+
+      			<label for="genero">Gender:</label>
+  				<select id="genero" name="genero">
+    				<option value="M">Male</option>
+    				<option value="F">Female</option>
+    				<option value="O">Other</option>
+  				</select>
+				
+
+      			<label for="email">Email:</label>
+     			<input id="email" type="email" name="email" required="required" placeholder="email@example.com">
+
+     			<label for="edad">Age:</label>
+     			<input id="edad" type="text" name="edad" required="required" pattern="[0-9]{2}">
+
+     			<label for="interes">What's your biggest interest?:</label>
+  				<select id="interes" name="interes">
+    				<option value="inf">IT</option>
+    				<option value="ent">Entertaining</option>
+    				<option value="art">Art</option>
+  				</select>
+
+  				<label for="tipo">How would you like to collaborate?</label>
+  				<select id="tipo" name="tipo">
+    				<option value="buscar">Search news and topics of interest</option>
+    				<option value="redactar">Write articles</option>
+    				<option value="otros">Others</option>
+  				</select>
+
+      			<label for="comentarios">Additional comments:</label>
+      			<textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br>
+
+      			<input type="submit" value="Submit">
+			</form>
+		</article>
+	</section>
+	<footer>
+		<p>© Valorant Riot Games 2020</p>
+	</footer>
+</body>
+</html>

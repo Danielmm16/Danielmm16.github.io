@@ -1,0 +1,39 @@
+
+h2{
+	margin-top: 10px;
+}
+div{
+	height: 350px;
+	width: 1208px;
+}
+article{
+	width: 1208px;
+	height: 350px;
+	border: 2px solid #505759;
+}
+div img{
+	margin: 5px;
+	position: relative;
+}
+div p img{
+	margin-top: 5px;
+	float: left;
+	position: relative;
+}
+#intro{
+	border: none;
+	height: 150px
+}
+#tres img{
+	margin-top: 40px;
+	position: relative;
+}
+#tres p img{
+	margin-top: 0px;
+	float: left;
+	position: relative;
+}
+#idioma{
+	border: none;
+	height: 20px;
+}

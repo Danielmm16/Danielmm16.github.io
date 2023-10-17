@@ -1,0 +1,84 @@
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 2px green;
+	font-family: "Poor Richard";
+	padding-top: 5px;
+}
+h2{
+	text-shadow: 2px 2px #D90E00;
+	font-family: Verdana;
+	margin-top: 30px;
+}
+h3{
+	text-shadow: 2px 2px 3px #cf4100;
+	font-family: Verdana;
+}
+body{
+	background-color: #C8CBCF;
+}
+#all{
+	width: 75%;
+	float: left;
+}
+article ul{
+	list-style-image: url(../Imagenes/jett-knife.png);
+	margin: 15px;
+}
+img{
+	margin-left: auto;
+	margin-top: auto;
+}
+nav{
+	float: left;
+	background-color: #969696;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+}
+nav ul{
+	list-style: none;
+	overflow: hidden;
+	display: inline-block;
+}
+nav ul li{
+	font-family: "Agency FB";
+	float: left;
+	font-size: 20px;
+}
+nav ul li a{
+	padding: 20px;
+	color: black;
+	text-decoration: none;
+}
+nav ul li:hover{
+	background-color: #145D85;
+}
+p{
+	font-family: "Book Antiqua";
+	font-size: 16px;
+}
+aside{
+	background-color: #00A6F2;
+	margin-top: 10px;
+	width: 15%;
+	float: right;
+	border: 2px solid grey;
+	border-radius: 10px;
+	padding: 10px;
+}
+footer{
+	width: 100%;
+	float: left;
+}
+aside a img{
+	margin-left: 2px;
+}
+#idioma ul{
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+#idioma ul li{
+	float: left;
+	padding: 10px;
+}
